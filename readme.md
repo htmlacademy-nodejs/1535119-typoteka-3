@@ -1,7 +1,7 @@
 # Личный проект «Типотека» [![Build status][travis-image]][travis-url]
 
 * Студент: [Andrey Maksimov](https://up.htmlacademy.ru/nodejs/3/user/1535119).
-* Наставник: `Неизвестно`.
+* Наставник: `Олег Зубов`.
 
 ---
 
