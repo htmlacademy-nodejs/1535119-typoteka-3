@@ -2,13 +2,16 @@
 
 const chalk = require(`chalk`);
 
-const HttpCode = require(`../http-codes`);
+const HttpCode = require(`../http-code`);
 const express = require(`express`);
+const routes = require(`../api`);
+const API_PREFIX = `/api`;
 
 const DEFAULT_PORT = 3000;
 
 const app = express();
 app.use(express.json());
+app.use(API_PREFIX, routes);
 
 const postsRoutes = require(`./routes/posts-routes`);
 app.use(`/posts`, postsRoutes);
